@@ -194,9 +194,9 @@ pipeline {
 
 **************************************************************************************
 
-QA server config
+QA server configuration
 
-Lauch ec2 instance
+Launch ec2 instance
 
 #Install epel Package:
 amazon-linux-extras install epel
