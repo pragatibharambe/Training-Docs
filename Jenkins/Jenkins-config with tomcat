@@ -224,10 +224,13 @@ wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.t
 
 tar -xvzf /opt/apache-tomcat-8.5.87.tar.gz
 
-mv apache-tomcat-8.5.87.tar.gz tomcat
+mv apache-tomcat-8.5.87 tomcat
+
+
 
 #Start tomcat server:
 #goto
+
 
 cd /opt/tomcat/bin
 ./startup.sh
