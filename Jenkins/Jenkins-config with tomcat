@@ -291,7 +291,7 @@ In order to copy artifacts within server -> publish over ssh plugin
 
 Jenkins->manage jenkins-> manage plugin ->check in available plugin (install and restart jenkins)
 
-Manage jenkins->configure jenkins->add server name , hostname , username, remote directory(/opt/tomcat/webapps)
+Manage jenkins->configure system->add server name , hostname , username, remote directory(/opt/tomcat/webapps)
 
 advanced->use pass authentication enter private key of QA server.
 
