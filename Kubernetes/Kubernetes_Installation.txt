@@ -55,9 +55,7 @@ systemctl start kubelet
 
 sudo kubeadm init --apiserver-advertise-address=172.31.12.160 --pod-network-cidr=192.168.0.0/16 --ignore-preflight-errors=NumCPU --ignore-preflight-errors=Mem
 
-------------------------------------------------------------------------
-use while deployment to k8s cluster using slave and master
-# Run as root - add user devopsadmin to docker  group (else devopsadmin won't able to user docker commands)
+
 
 usermod -aG docker devopsadmin
 
